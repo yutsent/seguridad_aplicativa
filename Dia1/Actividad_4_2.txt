@@ -1,0 +1,5 @@
+for numero in range (1,11):
+    print ("Tabla del numero" , numero)
+    for i in range (1,11):
+        multi= i * numero
+        print (numero,"x",i,"=",multi)

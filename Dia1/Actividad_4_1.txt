@@ -1,0 +1,11 @@
+for i in range(1,101):
+    multi_tres = i%3
+    multi_cinco = i%5
+    if multi_tres == 0 and multi_cinco == 0:
+        print("FizzBuzz")
+    elif multi_tres == 0:
+        print("Fizz")
+    elif multi_cinco == 0:
+        print ("Buzz")
+    else:
+        print(i)
