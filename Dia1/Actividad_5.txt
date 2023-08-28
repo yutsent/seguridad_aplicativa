@@ -1,0 +1,58 @@
+¿Qué es una red?
+
+Un conjunto de equipos electronicos conectados entre ellos para compartir información o recursos
+
+¿Qué es el modelo TCP/IP?
+es un protocolo de comunicación para los equipos electronicos que se conectan a internet
+
+¿Qué es una IP?
+Es una dirección de red, es la dirección que asigna el servidor DHCP para que el dispositivo pueda comunicarse con la red
+
+¿Qué es el protocolo TCP?
+Transport control Protocol, es un protocolo que verifica la continuidad de las tramas (paquetes ) de datos. Verifica que no falte ninguno paquete y si falta solicita lo reenvien.
+
+Dentro del protocolo TCP,¿Qué es el protocolo HTTP?
+es un protocolo de comunicación para tranferir información web
+
+Puerto del protocolo HTTP
+80
+
+Puerto del protocolo HTTPS 
+443
+
+Diferencia entre HTTP y HTTPS
+la diferencia es que en http se envia el texto plano mientras que en https se envia el texto cifrado
+
+¿Qué significa el Modelo cliente-servidor?
+significa que una computadora funciona como el que propocriona el servicio mientras que la otra computadora solicita el servicio que proporciona la primera
+
+¿Qué es una peticion (request) en HTTP?
+es cuando se solicita información al servidor, ya sea nombre de usuario, perfil o hasta una pagina 
+
+¿Qué es una respuesta (respose)?
+es cuando el servidor nos entrega la información que le solicitamos mediante el request
+
+Secciones de una peticion
+User-Agent
+cockie
+Host
+Length
+Connection
+
+Secciones de peticion respose
+Host
+Connection
+cockie
+
+¿El código de respuesta 404 y 500 a qué se refiere?
+el codigo 404 hace referencia que no existe el recurso o pagina que se solicito 
+el codigo 500 hace referencia a un error interno del servidor
+
+Lenguajes de programación del lado del servidor (Back end)
+php, python, java, html, javascript
+
+Lenguajes de programación del lado del cliente (Front End)
+css, html5
+
+¿Qué es burp Suite?
+es un set de herramientas, así como un proxie
