@@ -12,9 +12,6 @@ operacion = int(input ("""Ingerese una de las siguientes opciones:
                    4 = division
                    """))
 
-valor1 = int(input ("Ingrse el primer numero: "))
-valor2 = int(input ("Ingresa el segundo numero: "))
-
 def suma(param1,param2):
     return param1 + param22
 
@@ -29,15 +26,23 @@ def division (param1,param2):
     return x
 
 if operacion == 1:
+    valor1 = int(input ("Ingrse el primer numero: "))
+    valor2 = int(input ("Ingresa el segundo numero: "))
     x = suma(valor1,valor2)
     print ("la suma de: ",valor1, "+",valor2, "es igual a " ,x)
 elif operacion == 2:
+    valor1 = int(input ("Ingrse el primer numero: "))
+    valor2 = int(input ("Ingresa el segundo numero: "))
     x = resta(valor1,valor2)
     print ("la resta de: ",valor1, "-",valor2, "es igual a " ,x)
 elif operacion == 3:
+    valor1 = int(input ("Ingrse el primer numero: "))
+    valor2 = int(input ("Ingresa el segundo numero: "))
     x = multiplicacion(valor1,valor2)
     print ("la multiplicación de: ",valor1, "*",valor2, "es igual a " ,x)
 elif operacion == 4:
+    valor1 = int(input ("Ingrse el primer numero: "))
+    valor2 = int(input ("Ingresa el segundo numero: "))
     if valor2 == 0:
         x = print ("no es posible dividir entre cero")
     else:
