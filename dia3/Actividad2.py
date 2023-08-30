@@ -13,7 +13,7 @@ operacion = int(input ("""Ingerese una de las siguientes opciones:
                    """))
 
 def suma(param1,param2):
-    return param1 + param22
+    return param1 + param2
 
 def resta(param1,param2):
     return param1 - param2
