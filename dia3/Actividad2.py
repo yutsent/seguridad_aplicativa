@@ -23,7 +23,7 @@ def multiplicacion(param1,param2):
 
 def division (param1,param2):
     
-    return x
+    return param1 / param2
 
 if operacion == 1:
     valor1 = int(input ("Ingrse el primer numero: "))
