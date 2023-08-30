@@ -30,21 +30,15 @@ def promedio(lista):
     prom = suma/y
     return print (prom)
 
-def may(lista):
+def mm(lista):
     x = 0
     for num in alumnos:
         x = alumnos[num]
         if (alumnos[num] == 10 ):
             y = print ("El alumno con mayor calificación es: " + str(num))
-    return y
-def men(lista):
-    x = 0
-    for num in alumnos:
-        x =+ alumnos[num]
-        if (alumnos[num] == 5 ):
-            y = print ("El alumno con menor calificación es: " + str(num))
-    return y
+        elif (alumnos[num] == 5):
+            z = print ("El alumno con menor calificacion es : " + str(num))
+    return y,z
 
 promedio(alumnos)
-may(alumnos)
-men(alumnos)
+mm(alumnos)
