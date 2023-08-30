@@ -25,7 +25,8 @@ def multiplicacion(param1,param2):
     return param1 * param2
 
 def division (param1,param2):
-    return param1 / param2
+    
+    return x
 
 if operacion == 1:
     x = suma(valor1,valor2)
@@ -37,7 +38,10 @@ elif operacion == 3:
     x = multiplicacion(valor1,valor2)
     print ("la multiplicación de: ",valor1, "*",valor2, "es igual a " ,x)
 elif operacion == 4:
-    x = division(valor1,valor2)
-    print ("la division de: ",valor1, "+",valor2, "es igual a " ,x)
+    if valor2 == 0:
+        x = print ("no es posible dividir entre cero")
+    else:
+        x = division(valor1,valor2)
+        print ("la division de: ",valor1, "/",valor2, "es igual a " ,x)
 else:
     print ("opcion invalida. Hasta luego")
