@@ -1,11 +1,4 @@
 #programa que muestra los 100 números primos. 
-
-#def primo(num):
-#    x = num%2
-#    if x == 0:
-#        print ("El numero no es primo")
-#    else:
-#        print ("El numero es primo")
       
 lista = []  
 for i in range(1,1000):
@@ -14,7 +7,8 @@ for i in range(1,1000):
 primos=[]
 for i in lista:
     x = i%2
-    if x != 0:
+    y = i%3 
+    if x == 1 and y == 1:
         primos.append(i)
     elif len(primos) == 100:
         break
@@ -22,4 +16,3 @@ for i in lista:
         pass
 
 print(primos)
-print(len(primos))
