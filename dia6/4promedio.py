@@ -33,7 +33,7 @@ calificaciones = {
 }
 
 # Calcula el promedio de las calificaciones
-#promedio = sum(calificaciones.values()) / len(calificaciones)
+
 def promed(lista):
     suma = 0
     for numero in lista:
